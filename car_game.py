@@ -2,7 +2,7 @@ car_started = False
 game_active = True
 
 while game_active:
-    command = input('>')
+    command = input('> ')
     if command.lower() == 'help':
         print('start - to start the car\nstop - to stop the car\nquit - to exit')
     elif command.lower() == 'start' and not car_started:
