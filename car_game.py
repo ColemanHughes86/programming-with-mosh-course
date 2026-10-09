@@ -18,4 +18,4 @@ while game_active:
     elif command.lower() == 'quit':
         game_active = False
     else:
-        print('I dont understand that.')
+        print("I don't understand that.")
