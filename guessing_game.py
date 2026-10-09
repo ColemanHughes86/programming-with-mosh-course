@@ -14,5 +14,6 @@ while guess_count < guess_limit:
         print('Your guess is too high')
     elif guess < secret_number:
         print('Your guess is too low')
-    elif guess_count == guess_limit and guess != secret_number:
+    if guess_count == guess_limit and guess != secret_number:
         print('Out of guesses')
+        print(f'The secret number was {secret_number}')
